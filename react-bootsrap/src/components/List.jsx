@@ -1,3 +1,4 @@
+import Flad from "./Flad";
 import "./List.css";
 import User from "./User";
 
@@ -41,11 +42,13 @@ function List() {
 			<User user={users[0]} />
 			<User user={users[3]} /> */}
 
-			{users.map((user, index) => (
+			{/* {users.map((user, index) => (
 				<>
 					<User user={user} />
 				</>
-			))}
+			))} */}
+
+			<Flad />
 		</>
 	);
 }

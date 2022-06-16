@@ -1,19 +1,15 @@
-import './App.css';
+
+
 import List from './components/List';
+import BootstrapModal from './components/BootstrapModal';
 
 function App() {
 
-  let style = {
-    backgroundColor: "skyblue",
-    padding: 30,
-    borderRadius: 20,
-    margin: 20,
-    color: "white",
-  };
 
   return (
-    <div className="App" style={style}>
-      <List />
+    <div className="container">
+      {/* <List /> */}
+      <BootstrapModal />
     </div>
   );
 }
